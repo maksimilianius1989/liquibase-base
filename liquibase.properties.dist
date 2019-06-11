@@ -1,0 +1,6 @@
+driver: com.mysql.jdbc.Driver
+classpath: liquibase-3.6.3-bin/lib/mysql-connector-java-5.1.13.jar
+url: jdbc:mysql://<dbConnectUrl>
+username: <username>
+password: <userpass>
+changeLogFile: <migrationFilePath>.xml
